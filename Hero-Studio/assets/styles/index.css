@@ -1,0 +1,579 @@
+body {
+  padding: 0;
+  font-family: rubik, sans-serif;
+  margin:0px;
+  background-color: rgb(44, 44, 44);
+  font-size: 15px;
+}
+
+header {
+  width: 100%;
+  position: relative;
+  background-image: url("../images/hero-image.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  height: 70px;
+  padding-top: 1.25rem;
+}
+
+.logo-img img {
+  width:40%;
+  padding: 20%;
+}
+
+.shortened-logo {
+  display: none;
+}
+
+.links a {
+  text-decoration: none;
+  font-size: 20px;
+  font-style: bold;
+  padding: 0px 30px;
+  padding-bottom: 1%;
+  color: white;
+}
+
+.home-border {
+  padding-top: 1.25rem;
+  border-bottom: 4px solid tomato;
+}
+
+#search {
+  font-size: 25px;
+}
+
+#arrows {
+  font-size: 24px;
+  margin-right: 50px;
+}
+
+.links button {
+  padding: 0px 20px;
+  border: none;
+  outline: none;
+  color: white;
+  background-color: transparent;
+}
+
+.log-bottom {
+  position: absolute;
+  margin: 17% 28%;
+  text-align: center;
+  z-index: 1;
+}
+
+.log-bottom h1 {
+  color: white;
+  font-size: 400%;
+  max-width: 100%;
+  padding-top: 5%;
+  font-style: bold;
+  letter-spacing: 2px;
+}
+
+#buy-theme-button {
+  padding: 2.5%;
+  font-family: rubik, sans-serif;
+  font-weight: bolder;
+  word-spacing: 0.1rem;
+  cursor: pointer;
+  border: none;
+  outline: none;
+  color: white;
+  overflow: hidden;
+  position: relative;
+  background-color: rgb(241, 68, 37);
+  -webkit-transform: perspective(100px) rotateX(-20deg);
+}
+
+.game-zone{
+  padding-top: 4.5rem;
+  padding-bottom: 10rem;
+  width: 100%;
+  height: 100%;
+  position: relative;
+  background-image: url("../images/h2-background-img-3.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+
+.game-zone h1 {
+  padding-top: 5%;
+  font-size: 40px;
+  font-style: bold;
+  letter-spacing: 2px;
+  text-align: center;
+  color: white;
+}
+
+#robo-cave-head {
+  width: 80%;
+}
+
+#hr1 {
+  justify-content: center;
+  width: 10%;
+  margin-bottom: 0;
+}
+
+#hr2 {
+  justify-content: center;
+  width: 5%;
+  margin-top: 0.07px;
+  margin-bottom: 2%;
+}
+
+#hr3 {
+  justify-content: center;
+  width: 32%;
+  margin-right: 50%;
+  margin-bottom: 0;
+}
+
+#hr4 {
+  justify-content: center;
+  width: 12%;
+  margin-right: 60%;
+  margin-top: 0.07px;
+  margin-bottom: 2%;
+}
+
+.game-row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.the-game {
+  flex-basis: 15%;
+  text-align: center;
+}
+
+.the-game img {
+  margin:10px 0;
+}
+
+.game-app {
+  width:60%;
+}
+
+.appstore {
+  width:40%;
+}
+
+.the-game h3 {
+  color: white;
+}
+
+.review-desc {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+#employees {
+  background-color: black;
+  flex-direction: row;
+}
+
+.people-seated {
+  flex-basis: 50%;
+}
+
+.people-seated img {
+  width: 80%;
+}
+
+.intro {
+  flex-basis: 50%;
+  color: white;
+  max-width: 500px;
+}
+
+.intro h2 {
+  font-size: 35px;
+  letter-spacing: 2px;
+  word-spacing: 2px;
+}
+
+.intro p {
+  letter-spacing: 1px;
+}
+
+.multiple-btn {
+  font-family: rubik, sans-serif;
+  padding: 20px;
+  width: 8.7rem;
+  height: 3rem;
+  color: white;
+  background-color: rgb(228, 84, 59);
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+
+#reviews
+{
+  background-color: rgb(56, 54, 54);
+  padding: 60px 0px;
+}
+
+.left-angled-arrow {
+  flex-basis: 20%;
+  text-align: center;
+}
+
+.left-angled-arrow img {
+  width:20%
+}
+
+.right-angled-arrow img {
+  width: 20%;
+}
+
+.the-review {
+  padding:0 5%;
+  max-width: 700px;
+  color: white;
+  flex-basis: 60%;
+  text-align: center;
+}
+
+.the-review h1 {
+  letter-spacing: 2px;
+  font-size: 40px;
+}
+
+.the-review p {
+  word-spacing: 2px;
+  letter-spacing: 1px;
+}
+
+.right-angled-arrow {
+  flex-basis: 20%;
+  text-align: center;
+}
+
+.left-angled-arrow a {
+  text-decoration: none;
+  display: inline-block;
+  padding: 8px 16px;
+}
+
+.right-angled-arrow a {
+  text-decoration: none;
+  display: inline-block;
+  padding: 8px 16px;
+}
+
+.previous {
+  background : none;
+  color:white;
+}
+
+.next {
+  background :none;
+  color: white;
+}
+
+.round {
+  border-radius: 50%;
+}
+
+#robot {
+  background-image: linear-gradient(to right, rgb(48, 43, 43) , rgba(101, 144, 223, 0.493));
+}
+
+.robot-row, .employees-row {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.robo-cave-desc {
+  flex-basis: 50%;
+  max-width: 450px;
+  color: white;
+}
+
+.robo-cave-desc h1 {
+  letter-spacing: 2px;
+  font-size: 40px;
+}
+
+.robo-cave-desc p {
+  word-spacing: 2px;
+  letter-spacing: 1px;
+  padding: 10px 0px;
+}
+
+.right-robot img {
+  width:100%;
+  margin-bottom: 0px;
+}
+
+.game-zone-img {
+  padding:3% 25%;
+  position: relative;
+}
+
+.video {
+  width:100%;
+}
+
+.play {
+  position: absolute;
+  width:10%;
+  top: 40%;
+  left: 45%;
+}
+
+#footer {
+  padding: 60px 0px;
+  background-color: rgb(44, 44, 44);
+}
+
+.footer-nav {
+  display: flex;
+  width:80%;
+  margin:0 auto;
+  justify-content: space-evenly;
+}
+
+.subscribe-form {
+  margin: 3% auto;
+  display: flex;
+  width: 30%;
+  margin-bottom: 15px;
+  border-bottom: 2px solid black;
+  justify-content: space-between;
+}
+
+.subscribe-form input {
+  width: 40%;
+  color: white;
+  background-color: rgb(44, 44, 44);
+  outline: none;
+  border: none;
+  padding: 1%;
+}
+
+.subscribe-form i {
+  padding: 10px;
+  background: rgb(44, 44, 44);
+  color: white;
+  min-width: 50px;
+  text-align: center;
+}
+
+.social-media {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  text-align: center;
+  margin-top: 2%;
+}
+
+.social-icons {
+  flex-basis: 52%;
+  text-align: right;
+}
+
+.move-up  {
+  flex-basis: 48%;
+}
+
+.social-icons a {
+  text-decoration: none;
+  color: white;
+  margin-left: 1.5%;
+}
+
+.move-up button {
+  float: right;
+  cursor: pointer;
+  border:none;
+  outline: none;
+  margin-right: 6%;
+  padding: 1%;
+  background-color: tomato;
+  -webkit-transform: perspective(30px) rotateX(-20deg);
+}
+
+.arrow {
+  border: solid white;
+  border-width: 0 3px 3px 0;
+  display: inline-block;
+  padding: 3px;
+}
+
+.up {
+  transform: rotate(-135deg);
+  -webkit-transform: rotate(-135deg);
+}
+
+.footer-nav a {
+  text-decoration: none;
+  font-size: 20px;
+  font-style: bold;
+  padding: 0px 20px;
+  color: white;
+}
+
+@media screen and (max-width: 1920px)
+ {
+  .the-review {
+    padding: 0 1%;
+  }
+
+  .left-angled-arrow  {
+    text-align: right;
+  }
+
+  .right-angled-arrow {
+    text-align: left;
+  }
+
+  header {
+    height:100vh
+  }
+
+  #reviews{
+    margin: auto;
+  }
+}
+
+@media screen and (max-width: 1240px)  {
+  .links a {
+    display: none;
+  }
+
+  .the-review {
+    flex-basis: 80%;
+  }
+
+  .intro, .robo-cave-desc {
+    flex-basis:inherit;
+    margin: 0 auto;
+    max-width: 80%;
+  }
+
+  #search {
+    display: none;
+  }
+
+  .logo-img {
+    display:none;
+  }
+
+  .game-zone {
+    background-image: none;
+    background-image: linear-gradient(rgb(51, 50, 50), rgb(29, 28, 28));
+    height: 100%;
+    padding: 10% 0;
+  }
+
+  .the-game {
+    flex-basis: 100%;
+  }
+
+  .game-app {
+    width:30%;
+  }
+
+  .appstore {
+    width: 15%;
+  }
+
+  nav {
+    background-color: rgb(43, 43, 43);
+  }
+
+  .people-seated {
+    text-align: center;
+    flex-basis: 100%;
+  }
+
+  .right-angled-arrow, .left-angled-arrow {
+    display: none;
+  }
+
+  #link {
+    padding:0px 10px;
+    padding-bottom: 10%;
+    display: initial;
+
+  }
+
+  .game-zone-img {
+    background-image: url("../images/h2-background-img-3.jpg");
+    background-attachment:inherit ;
+    background-size: 100%;
+
+  }
+
+  .footer-nav {
+    margin:3% auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .subscribe-form {
+    width:50%;
+  }
+
+  .log-bottom h1 {
+    font-size: 300%;
+  }
+
+  #zoom {
+    display: block;
+    float: right;
+  }
+
+  .button1 {
+    font-size: 50%;
+  }
+
+  .shortened-logo {
+    display: inline-block;
+    margin:0 auto;
+  }
+
+  .shortened-logo img {
+    width:35%;
+  }
+  .move-up  {
+    text-align: center;
+  }
+  .move-up button
+   {
+    float: none;
+    width: 7%;
+  }
+}
+
+@media screen and (max-width: 360px) {
+  .log-bottom h1 {
+    font-size: 100%;
+  }
+
+  .move-up button
+   {
+    width: 20%;
+    height: 80%;
+  }
+}
